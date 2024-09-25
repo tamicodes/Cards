@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    /* background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%); */
+
+}
+
+
+.main{
+    width: 400px;
+    height: 200px; 
+    margin : 20px auto ;
+
+   
+}
+.card{
+    margin: 20px auto;
+   
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: 20px;
+    padding: 60px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+ transition: all 1s ease;
+    border-radius: 15px;
+    
+}
+
+.card:hover{
+    cursor: pointer
+    ;
+   transform: scale(1.05);
+   
+   background-color: blueviolet;
+}
+
+
+
+.card:hover p{
+    color: rgb(245, 245, 245);}
+.icon{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto ;
+    display: flex;
+}
+h4{
+    padding: 5px;
+    font-size: large;
+}
+p{
+    padding:7px;
+    color: rgb(58, 52, 52);
+}
